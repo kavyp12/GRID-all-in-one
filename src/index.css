@@ -1,7 +1,7 @@
 /* ===========================================================
    Vedcool Studio · All-in-one
    Editorial monochrome — warm white field, black ink,
-   cream accents. Heavy serif display, mono micro-labels,
+   cream accents. Geist sans display, Geist Mono micro-labels,
    CSS-built 3D mockups, AR/VR-style horizontal scroll.
    =========================================================== */
 
@@ -34,9 +34,9 @@
   --on-dark-mute: rgba(246, 243, 236, 0.32);
   --on-dark-line: rgba(246, 243, 236, 0.12);
 
-  --font-display: "Instrument Serif", "Times New Roman", serif;
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-display: "Geist", system-ui, -apple-system, sans-serif;
+  --font-sans: "Geist", system-ui, -apple-system, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
 
   --max: 1320px;
   --pad: clamp(1.25rem, 4vw, 3rem);
@@ -109,7 +109,7 @@ html.lenis body { height: auto; }
 
 .h-display {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 500;
   line-height: 0.95;
   letter-spacing: -0.02em;
 }
@@ -361,7 +361,7 @@ html.lenis body { height: auto; }
   font-size: clamp(3.25rem, 9.5vw, 9rem);
   line-height: 0.92;
   letter-spacing: -0.025em;
-  font-weight: 400;
+  font-weight: 500;
 }
 .hero h1 .stack { display: block; }
 .hero p.lead {
@@ -709,7 +709,7 @@ html.lenis body { height: auto; }
   font-family: var(--font-display);
   font-size: clamp(2rem, 4.5vw, 4rem);
   line-height: 1;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.02em;
   color: var(--on-dark);
 }
@@ -1830,7 +1830,7 @@ html.lenis body { height: auto; }
   font-size: clamp(3rem, 9vw, 8rem);
   line-height: 0.92;
   letter-spacing: -0.025em;
-  font-weight: 400;
+  font-weight: 500;
   max-width: 14ch;
 }
 .closing-band h2 em { color: var(--on-dark-mute); font-style: italic; }
@@ -1905,7 +1905,7 @@ html.lenis body { height: auto; }
   font-size: clamp(3rem, 8.5vw, 8rem);
   line-height: 0.92;
   letter-spacing: -0.025em;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 1.5rem;
 }
 .contact-hero .copy { margin-top: 1.5rem; max-width: 56ch; }
@@ -2188,7 +2188,7 @@ html.lenis body { height: auto; }
   font-size: clamp(2.5rem, 5vw, 4rem);
   line-height: 0.95;
   letter-spacing: -0.02em;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 1rem;
   color: var(--on-dark);
 }

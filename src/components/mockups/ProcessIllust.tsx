@@ -5,7 +5,7 @@
 
 const COMMON = {
   stroke: "currentColor",
-  fontFamily: "JetBrains Mono",
+  fontFamily: "Geist Mono",
   fontSize: 6.5,
   letterSpacing: 1.6,
 };
@@ -197,7 +197,7 @@ function Deploy() {
           <line x1={n.x + 80} y1={n.y + 36} x2={n.x + 80} y2={n.y + 31} stroke="currentColor" strokeWidth="1.4" />
 
           <text x={n.x + 8} y={n.y + 14} fill="currentColor" {...COMMON} fontSize="7" opacity="0.5">{n.sub}</text>
-          <text x={n.x + 8} y={n.y + 28} fill="currentColor" fontFamily="JetBrains Mono" fontSize="9" letterSpacing="1.4">{n.t}</text>
+          <text x={n.x + 8} y={n.y + 28} fill="currentColor" fontFamily="Geist Mono" fontSize="9" letterSpacing="1.4">{n.t}</text>
         </g>
       ))}
 
@@ -220,7 +220,7 @@ function Deploy() {
       {/* Central tag */}
       <g>
         <rect x="135" y="92" width="50" height="16" fill="currentColor" />
-        <text x="160" y="103" textAnchor="middle" fill="#f7f4ed" fontFamily="JetBrains Mono" fontSize="7" letterSpacing="1.8">
+        <text x="160" y="103" textAnchor="middle" fill="#f7f4ed" fontFamily="Geist Mono" fontSize="7" letterSpacing="1.8">
           PIPELINE
         </text>
       </g>
@@ -317,7 +317,7 @@ function Optimise() {
       <g>
         <line x1="300" y1="50" x2="270" y2="34" stroke="currentColor" strokeWidth="0.6" />
         <rect x="200" y="22" width="68" height="18" fill="currentColor" />
-        <text x="234" y="34" textAnchor="middle" fill="#0a0a0a" fontFamily="Instrument Serif" fontSize="13" fontStyle="italic">
+        <text x="234" y="34" textAnchor="middle" fill="#0a0a0a" fontFamily="Geist" fontSize="13" fontWeight="500">
           + 312%
         </text>
       </g>

@@ -17,7 +17,7 @@ export function ARVRMockup() {
         <svg viewBox="0 0 40 40">
           <circle cx="20" cy="20" r="18" fill="none" stroke="#0a0a0a" strokeWidth="0.8" opacity="0.4" />
           <path d="M20 4 L23 20 L20 17 L17 20 Z" fill="#0a0a0a" />
-          <text x="20" y="36" textAnchor="middle" fontSize="6" fontFamily="JetBrains Mono" letterSpacing="2">N</text>
+          <text x="20" y="36" textAnchor="middle" fontSize="6" fontFamily="Geist Mono" letterSpacing="2">N</text>
         </svg>
       </div>
 
@@ -42,7 +42,7 @@ export function ARVRMockup() {
           stroke="#0a0a0a"
           strokeWidth="0.6"
           fill="#0a0a0a"
-          fontFamily="JetBrains Mono"
+          fontFamily="Geist Mono"
           fontSize="9"
           letterSpacing="2"
           opacity="0.55"
@@ -170,7 +170,7 @@ export function ARVRMockup() {
         {/* ─── Room labels ─── */}
         <g
           fill="#0a0a0a"
-          fontFamily="JetBrains Mono"
+          fontFamily="Geist Mono"
           fontSize="7.5"
           letterSpacing="2"
         >
@@ -207,7 +207,7 @@ export function ARVRMockup() {
               x={h.x}
               y={h.y - 18}
               textAnchor="middle"
-              fontFamily="JetBrains Mono"
+              fontFamily="Geist Mono"
               fontSize="7"
               letterSpacing="1.5"
               fill="#0a0a0a"
