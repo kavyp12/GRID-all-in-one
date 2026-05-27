@@ -113,9 +113,9 @@ html.lenis body { height: auto; }
   line-height: 0.95;
   letter-spacing: -0.02em;
 }
-.h-1 { font-size: clamp(3rem, 8.5vw, 8.5rem); }
-.h-2 { font-size: clamp(2.5rem, 6vw, 5.25rem); }
-.h-3 { font-size: clamp(1.75rem, 2.8vw, 2.5rem); }
+.h-1 { font-size: clamp(2.25rem, 5.5vw, 4.5rem); }
+.h-2 { font-size: clamp(2rem, 4.5vw, 3.5rem); }
+.h-3 { font-size: clamp(1.5rem, 2.5vw, 2.25rem); }
 
 .italic-soft {
   font-style: italic;
@@ -358,9 +358,9 @@ html.lenis body { height: auto; }
 
 .hero h1 {
   font-family: var(--font-display);
-  font-size: clamp(3.25rem, 9.5vw, 9rem);
-  line-height: 0.92;
-  letter-spacing: -0.025em;
+  font-size: clamp(2.25rem, 5.5vw, 4.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
   font-weight: 500;
 }
 .hero h1 .stack { display: block; }
@@ -1827,11 +1827,11 @@ html.lenis body { height: auto; }
 }
 .closing-band h2 {
   font-family: var(--font-display);
-  font-size: clamp(3rem, 9vw, 8rem);
-  line-height: 0.92;
-  letter-spacing: -0.025em;
+  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
   font-weight: 500;
-  max-width: 14ch;
+  max-width: 16ch;
 }
 .closing-band h2 em { color: var(--on-dark-mute); font-style: italic; }
 .closing-band .copy { color: var(--on-dark-dim); margin-top: 1.5rem; }
@@ -1902,9 +1902,9 @@ html.lenis body { height: auto; }
 
 .contact-hero-h {
   font-family: var(--font-display);
-  font-size: clamp(3rem, 8.5vw, 8rem);
-  line-height: 0.92;
-  letter-spacing: -0.025em;
+  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
   font-weight: 500;
   margin-top: 1.5rem;
 }
